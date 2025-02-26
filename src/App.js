@@ -4,9 +4,8 @@ import PageOne from "./pages/Index";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CpapMachines from "./pages/CpapMachines";
 import Navbar from "./component/Navbar";
-import Accessories from "./component/Accessories";
 import Masks from "./pages/Masks";
-import conditionalreact from "./component/conditionalreact";
+
 
 
 class App extends Component {
