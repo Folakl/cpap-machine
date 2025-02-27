@@ -26,7 +26,7 @@ const CpapMachines = () => {
       <div>
       <Typesofsleepapnea/>
       </div>
-      <div className='mt-60'>
+      <div >
       <Sleep/>
       </div>
       <div>

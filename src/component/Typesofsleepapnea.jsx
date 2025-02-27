@@ -35,12 +35,12 @@ const Typesofsleepapnea = () => {
     <div>
         <div className='my-20'>
           <h3 className='text-center text-[36px]'>Different Types of Sleep Apnea Machines </h3>
-          <h3 className='text-center mx-80'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, quia? Animi nemo earum exercitationem, expedita dignissimos modi pariatur maiores illo numquam inventore harum tenetur repellat officia quisquam doloribus laborum beatae asperiores quod eveniet distinctio, repellendus, quos fuga rerum. Esse asperiores, similique inventore omnis in, eligendi fuga praesentium reprehenderit natus nostrum laudantium, eveniet totam. Cupiditate unde enim explicabo, dolore temporibus velit ad cum possimus quisquam impedit suscipit neque molestiae totam eaque ratione nam amet, consectetur laborum dolor inventore quas placeat illo.</h3>  
+          <h3 className='text-center '>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, quia? Animi nemo earum exercitationem, expedita dignissimos modi pariatur maiores illo numquam inventore harum tenetur repellat officia quisquam doloribus laborum beatae asperiores quod eveniet distinctio, repellendus, quos fuga rerum. Esse asperiores, similique inventore omnis in, eligendi fuga praesentium reprehenderit natus nostrum laudantium, eveniet totam. Cupiditate unde enim explicabo, dolore temporibus velit ad cum possimus quisquam impedit suscipit neque molestiae totam eaque ratione nam amet, consectetur laborum dolor inventore quas placeat illo.</h3>  
         </div>
-       <div className='grid grid-cols-4 gap-5 my-10 mx-10'>
+       <div className='grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1 gap-5 '>
       {
         equipment.map((items) => (
-          <div key={items.id} className='w-[241px] h-[279px]'>
+          <div key={items.id} className=' justify-self-center mx-5'>
             <img src={items.img} alt="" className='grid justify-center items-center mx-[50px] w-[120px] h-[120px]' />
             <div className='font-bold w-[191px] text-center text-[18px] my-5'>{items.text}</div>
             <div>{items.text2}</div>

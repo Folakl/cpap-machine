@@ -47,7 +47,7 @@ const Manual = () => {
         },
           ]
     return (    
-    <div className='grid grid-cols-6 gap-5 my-10 mx-60'>
+    <div className='grid lg:grid-cols-6 md:grid-cols-3 grid-cols-1 gap-5 my-5 justify-self-center'>
     {
         machines.map((items) => (
             

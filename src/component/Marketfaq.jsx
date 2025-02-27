@@ -4,7 +4,7 @@ const Marketfaq = () => {
   return (
     <div>
         <div className="text-center py-5">
-              <h3 className="py-3">CPAP Market F.A.Q.</h3>
+              <h3 className="py-3">CPAP Market FAQ.</h3>
               <h3 className="font-bold py-5 text-[36px]">CPAP Education</h3>
               <h3 className="font-bold py-3 text-[18px]">Q: Which machine is the quietest?</h3>
               <h3>A: All new machines these days are extremely quiet...Read more</h3>

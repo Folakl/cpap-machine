@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../component/Navbar";
+import { Link } from "react-router-dom";
 import Hro from "../assets/medical2.jpg"
 import One from "../assets/image 105.png"
 import Cpapmachines from "../component/Cpapmachines"
@@ -142,7 +142,7 @@ return(
                    <h3 className="text-[36px]">New Z2 Auto </h3>
                    <h3 className="text-[36px]">Travel CPAP </h3>
                    <h3>With a new motor 29% quieter than the Z1, the Z2 is designed to minimize the  pitch of the motor for optimal comfort.</h3>
-                    <button className="text-white w-[200px] h-[50px] bg-[#F0592A] rounded-2xl my-10">Buy Now</button>
+                    <Link to='/accesories'><button className="text-white w-[200px] h-[50px] bg-[#F0592A] rounded-2xl my-10">Buy Now</button></Link>
                 </div>
                 {/* buttons */}
             <div>
@@ -156,8 +156,8 @@ return(
                 </div>
             </div>
             {/* best place online */}
-            <div className="bg-[#F3F4F8] h-[993px] "> 
-              <h3 className="text-center font-bold text-[36px] py-20">The Best Place Online for CPAP Machines, <br />Accessories, and Equipment</h3>
+            <div className="bg-[#F3F4F8] w-screen  h-fit py-5 "> 
+              <h3 className="text-center font-bold text-[36px] py-5">The Best Place Online for CPAP Machines, <br />Accessories, and Equipment</h3>
               <Accessories  equipment={equipment}/>
             </div>
             {/* CPAP market faq */}
@@ -175,7 +175,7 @@ return(
             <div>
               <Learnmore treatment = {treatment}/>
             </div>
-            <div className="my-[250px] ">
+            <div className="my-10 ">
               <Resmed/>
             </div>
             <div>
